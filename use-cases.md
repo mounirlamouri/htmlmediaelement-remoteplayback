@@ -21,17 +21,20 @@ The Safari API can be described as:
 Both Safari for iOS and Chrome Android have UIs specific to remote playback. Safari will show an icon in order to send a video to an AirPlay device nearby. Chrome will show a similar icon but for Chrome Cast devices.
 
 Safari iOS:
-- TODO
+- The user will see an AirPlay button on the audio/video controls if there is an AirPlay device available in the local network.
+- When the AirPlay button is pressed, the user will be able to select a device from a picker (inc. local).
+- While playing remotely, the user can play/pause and seek using the default controls.
+- While playing remotely, the video element changes look and no longer shows the playback locally.
+- While playing remotely, the AirPlay button will allow the user to picke another device (inc. local).
 
 Chrome Android:
 - Some screenshots: http://avayvod.github.io/chrome-android-remote-playback.pdf
-- Features:
-  - the user will see a Cast button on the video controls if there is a Cast device available in the local network.
-  - when the cast button is pressed, the user will be able to select a Cast device from a picker.
-  - while casting, the video element shows a different Cast button and no longer shows the video playback locally.
-  - while casting, the user can play/pause and seek using the default controls.
-  - while casting, the Cast button changes style.
-  - while casting, the Cast button will show a different UI that allows setting the volume on the Cast device and stop casting.
+- The user will see a Cast button on the video controls if there is a Cast device available in the local network.
+- When the cast button is pressed, the user will be able to select a Cast device from a picker.
+- While casting, the video element shows a different Cast button and no longer shows the video playback locally.
+- While casting, the user can play/pause and seek using the default controls.
+- While casting, the Cast button changes style.
+- While casting, the Cast button will show a different UI that allows setting the volume on the Cast device and stop casting.
 
 ## Use cases
 
