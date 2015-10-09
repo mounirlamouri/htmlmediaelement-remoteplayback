@@ -1,6 +1,6 @@
 This proposal is strongly inspired from the original proposal from Anton Vayvod in https://github.com/avayvod/remotehtmlmedia/blob/master/proposal.md
 
-```idl
+```js
 partial interface HTMLMediaElement {
   readonly attribute RemotePlayback remote;
 };
