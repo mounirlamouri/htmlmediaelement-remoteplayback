@@ -18,6 +18,19 @@ The Safari API can be described as:
 
 Both Safari for iOS and Chrome Android have UIs specific to remote playback. Safari will show an icon in order to send a video to an AirPlay device nearby. Chrome will show a similar icon but for Chrome Cast devices.
 
+Safari iOS:
+- TODO
+
+Chrome Android:
+- Some screenshots: http://avayvod.github.io/chrome-android-remote-playback.pdf
+- Features:
+  - the user will see a Cast button on the video controls if there is a Cast device available in the local network.
+  - when the cast button is pressed, the user will be able to select a Cast device from a picker.
+  - while casting, the video element shows a different Cast button and no longer shows the video playback locally.
+  - while casting, the user can play/pause and seek using the default controls.
+  - while casting, the Cast button changes style.
+  - while casting, the Cast button will show a different UI that allows setting the volume on the Cast device and stop casting.
+
 ### Use cases
 
 Based on the different UIs and APIs, we can define the followin use cases:
