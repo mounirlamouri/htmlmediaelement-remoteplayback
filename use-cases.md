@@ -36,6 +36,9 @@ Chrome Android:
 - While casting, the Cast button changes style.
 - While casting, the Cast button will show a different UI that allows setting the volume on the Cast device and stop casting.
 
+Firefox Android:
+- TODO
+
 ## Use cases
 
 Based on the different UIs and APIs, we can define the following use cases:
