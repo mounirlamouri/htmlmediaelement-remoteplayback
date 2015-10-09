@@ -37,8 +37,12 @@ The primary goal of this API is to be able to create a UI to start remote playba
 
 Based on the different UIs and APIs, we can define the followin use cases:
 - A website should be able to know if there is a remote device available and if this changes.
-- A website should be able to know when a remote playback session is connecting, connected, disconnected.
+- A website should be able to know when a remote playback session is connected, disconnected.
 - A website should be able to control a remote playback:
-  - A website should be able start/stop a remote playback session.
+  - A website should be able start a remote playback session.
   - A website should be able to apply any usual media control to a remote playback session.
 - A website should be able to de-active the default browser UI button for remote playback.
+
+The following use cases might be added in the future or considered in the first set of use cases but there is no strong signal that they are needed as of yet:
+- A website should be able to know when a remote playback session is connecting (ie. in the process of being connected but not connected yet).
+- A website should be able to stop a remote playback session.
