@@ -3,6 +3,10 @@ This proposal is strongly inspired from the original proposal from Anton Vayvod 
 ```js
 partial interface HTMLMediaElement {
   readonly attribute RemotePlayback remote;
+  
+  // Reflects disable-remote-playback attribute.
+  // This will disable the button from the default controls.
+  attribute disableRemotePlayback;
 };
 
 interface RemotePlayback : EventTarget {
