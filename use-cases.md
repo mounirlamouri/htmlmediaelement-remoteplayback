@@ -35,7 +35,7 @@ Chrome Android:
 
 ## Use cases
 
-Based on the different UIs and APIs, we can define the followin use cases:
+Based on the different UIs and APIs, we can define the following use cases:
 - A website should be able to know if there is a remote device available and if this changes.
 - A website should be able to know when a remote playback session is connected, disconnected.
 - A website should be able to control a remote playback:
