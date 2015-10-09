@@ -31,7 +31,9 @@ Chrome Android:
   - while casting, the Cast button changes style.
   - while casting, the Cast button will show a different UI that allows setting the volume on the Cast device and stop casting.
 
-### Use cases
+## Use cases
+
+The primary goal of this API is to be able to create a UI to start remote playback even when using custom controls and disable default remote playback UI in case of remote playback is handled another way (eg. Presentation API or a button outside of the default controls).
 
 Based on the different UIs and APIs, we can define the followin use cases:
 - A website should be able to know if there is a remote device available and if this changes.
