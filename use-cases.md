@@ -2,10 +2,17 @@
 
 ## Proprietary APIs
 
-Safari for iOS has some proprietary APIs in order to allow remote playback on AirPlay.  
-See:
+Safari for iOS has some proprietary APIs in order to allow remote playback on AirPlay.
 - Safari 7 release notes: https://developer.apple.com/library/prerelease/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_7_0.html#//apple_ref/doc/uid/TP40014305-CH5-SW7
 - Safari 9 release notes: https://developer.apple.com/library/prerelease/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9.html
+
+The Safari API can be described as:
+- ```x-webkit-wirelessvideoplaybackdisabled``` property, it lets the website disable AirPlay video playback, it superseeds ```x-webkit-airplay```.
+- ```webkitplaybacktargetavailabilitychanged``` event, it lets the website know if an AirPlay device beomes available or there no none available anymore.
+- ```webkitShowPlaybackTargetPicker()``` function, it allows website to show an AirPlay device picker, allowing them to creat a button which will show that UI.
+- ```webkitCurrentPlaybackTargetIsWireless```property, it exposes whether the media element is currently being played on an AirPlay device.
+- ```webkitcurrentpalybacktargetiswireless``` event, it lets the website know whet the previous property changes.
+
 
 ## Browser UIs
 
